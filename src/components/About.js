@@ -1,5 +1,5 @@
 import React from "react";
-import { BsFacebook } from 'react-icons/bs';
+import { BsFacebook,BsInstagram,BsWhatsapp,BsGithub,BsLinkedin } from 'react-icons/bs';
 
 export const About = () => {
   const myImg = {
@@ -34,9 +34,13 @@ export const About = () => {
             </p>
           </div>
         </div>
-        <div className="col-2 d-flex">
+        <div className="col-2 d-flex align-items-center justify-content-center">
           <div className="flex-column">
-            
+            <div><BsFacebook /></div>
+            <div><BsInstagram /></div>
+            <div><BsWhatsapp /></div>
+            <div><BsGithub /></div>
+            <div><BsLinkedin /></div>
           </div>
         </div>
       </div>
