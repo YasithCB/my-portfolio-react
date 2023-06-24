@@ -3,6 +3,7 @@ import Header from "./Header";
 import Home from "./Home";
 import Footer from "./Footer";
 import { About } from "./About";
+import { Education } from "./Education";
 
 const Layout = () => {
   const bgStyle = {
@@ -15,6 +16,7 @@ const Layout = () => {
         <Header />
         <Home />
         <About />
+        <Education />
         <Footer />
       </div>
     </>
