@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <div>
-        <div className="container d-flex justify-content-center">
+        <div className="container d-flex justify-content-center mt-5">
           <div className="col-2"></div>
           <div
             className="col-4 align-items-center d-flex"
