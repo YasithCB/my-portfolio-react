@@ -1,6 +1,6 @@
 import React from "react";
-import { FilledBlueButton } from "./FilledBlueButton";
 import { NoFilledBlueButton } from "./NoFilledBlueButton";
+import { FilledBlueButton } from "./FilledBlueButton";
 
 export default function Home() {
   const shapeHome = {
@@ -55,9 +55,7 @@ export default function Home() {
               alt=""
             />
           </div>
-          <div className="col-2">
-
-          </div>
+          <div className="col-2"></div>
         </div>
       </div>
     </>

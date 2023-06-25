@@ -1,6 +1,7 @@
 import React from "react";
 import { InputField } from "./InputField";
 import { CommentBox } from "./CommentBox";
+import { NoFilledBlueButton } from "./NoFilledBlueButton";
 
 export const Contact = () => {
   return (
@@ -19,6 +20,7 @@ export const Contact = () => {
         </div>
         <div className="col-2"></div>
       </div>
+      <div className="d-flex justify-content-center my-4"><NoFilledBlueButton text='Read More' /></div>
     </div>
   );
 };
