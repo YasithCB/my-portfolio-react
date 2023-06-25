@@ -5,9 +5,9 @@ export const Education = () => {
   return (
     <div className="container text-light py-3 my-2">
       <h3 className="text-center">My Journey</h3>
-      <div className="d-flex mt-5">
-        <div className="text-center col-6">
-          <h6 className="mb-3">Education</h6>
+      <div className="row mt-5">
+        <div className="col-12 col-md-6">
+          <h6 className="text-center mb-3">Education</h6>
           <EducationDetailBox
             time="2017"
             title="GCE Ordinary Level"
@@ -24,8 +24,8 @@ export const Education = () => {
             desc="I am curruntly following a degree program in Computer Science via GDSE(Graduated Diploma in Software Engineering) in IJSE(Institute of Software Engineering)"
           />
         </div>
-        <div className="text-center col-6">
-          <h6 className="mb-3">Experience</h6>
+        <div className="col-12 col-md-6">
+          <h6 className="text-center mb-3">Experience</h6>
           <EducationDetailBox
             time="2019 - Present"
             title="Graphic Designer - freelancer"
