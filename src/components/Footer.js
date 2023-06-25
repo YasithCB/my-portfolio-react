@@ -1,4 +1,5 @@
 import React from "react";
+import { animateScroll as scroll } from "react-scroll";
 import { AiOutlineArrowUp } from "react-icons/ai";
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
         </div>
         <div className="col-md-4"></div>
         <div className="col-md-2 text-center">
-          <button type="button" className="btn btn-outline-primary my-2 px-4">
+          <button type="button" onClick={() => {scroll.scrollTo(0)}} className="btn btn-outline-primary my-2 px-4">
             <AiOutlineArrowUp />
           </button>
         </div>

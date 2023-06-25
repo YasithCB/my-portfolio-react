@@ -1,29 +1,39 @@
-import { Link, animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
+import React, { useState } from "react";
 
 export default function Header() {
+  const [activeItem, setActiveItem] = useState("home");
+  const handleItemClick = (itemName) => {
+    setActiveItem(itemName);
+  };
+
   const scrollToHome = () => {
     scroll.scrollTo(0);
+    handleItemClick("home");
   };
   const scrollToAbout = () => {
     scroll.scrollTo(800);
+    handleItemClick("about");
   };
   const scrollToEducation = () => {
     scroll.scrollTo(1500);
+    handleItemClick("education");
   };
   const scrollToSkill = () => {
     scroll.scrollTo(2150);
+    handleItemClick("skill");
   };
   const scrollToContact = () => {
     scroll.scrollTo(2550);
+    handleItemClick("contact");
   };
   const reload = () => {
-    window.location.reload()
+    window.location.reload();
   };
 
   const cursorToPointer = {
-    cursor: 'pointer'
-  }
-
+    cursor: "pointer",
+  };
 
   return (
     <>
@@ -50,7 +60,7 @@ export default function Header() {
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2">
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  className={activeItem === "home" ? "active nav-link" : "nav-link"}
                   aria-current="page"
                   style={cursorToPointer}
                   smooth={true}
@@ -62,7 +72,7 @@ export default function Header() {
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  className={activeItem === "about" ? "active nav-link" : "nav-link"}
                   aria-current="page"
                   style={cursorToPointer}
                   smooth={true}
@@ -74,7 +84,7 @@ export default function Header() {
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  className={activeItem === "education" ? "active nav-link" : "nav-link"}
                   aria-current="page"
                   style={cursorToPointer}
                   smooth={true}
@@ -86,7 +96,7 @@ export default function Header() {
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  className={activeItem === "skill" ? "active nav-link" : "nav-link"}
                   aria-current="page"
                   style={cursorToPointer}
                   smooth={true}
@@ -98,7 +108,7 @@ export default function Header() {
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  className={activeItem === "contact" ? "active nav-link" : "nav-link"}
                   aria-current="page"
                   style={cursorToPointer}
                   smooth={true}
