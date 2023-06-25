@@ -4,6 +4,8 @@ import Home from "./Home";
 import Footer from "./Footer";
 import { About } from "./About";
 import { Education } from "./Education";
+import { Skills } from "./Skills";
+import { Contact } from "./Contact";
 
 const Layout = () => {
   const bgStyle = {
@@ -17,6 +19,8 @@ const Layout = () => {
         <Home />
         <About />
         <Education />
+        <Skills />
+        <Contact />
         <Footer />
       </div>
     </>

@@ -7,7 +7,7 @@ export const Education = () => {
       <h3 className="text-center">My Journey</h3>
       <div className="d-flex mt-5">
         <div className="text-center col-6">
-          <h5 className="mb-3">Education</h5>
+          <h6 className="mb-3">Education</h6>
           <EducationDetailBox
             time="2017"
             title="GCE Ordinary Level"
@@ -25,7 +25,7 @@ export const Education = () => {
           />
         </div>
         <div className="text-center col-6">
-          <h5 className="mb-3">Experience</h5>
+          <h6 className="mb-3">Experience</h6>
           <EducationDetailBox
             time="2019 - Present"
             title="Graphic Designer - freelancer"
