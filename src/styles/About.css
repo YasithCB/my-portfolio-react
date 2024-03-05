@@ -1,0 +1,36 @@
+.aboutSection {
+  height: 100vh;
+}
+
+.me-text {
+  color: #4900ff;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+}
+
+.about-text {
+  color: #383838;
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+}
+
+p {
+  color: #383838;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.72px;
+  margin-bottom: 0;
+}
+
+.social-icons{
+    height: 20px;
+    margin-left: 10px;
+}

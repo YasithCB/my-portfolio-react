@@ -1,15 +1,17 @@
 import React from 'react'
+import "./../styles/Text.css";
 
-export const SkillDetalsBox = (props) => {
-    const array = props.array;
+export const SkillDetailsBox = (props) => {
+  const array = props.contentArray;
 
-    const printArray = array.map((element) => {
-        return <h6>{element}</h6>
-    })
+  const printArray = array.map((element, index) => (
+      <h6 className='subtitle text-center' key={index}>{element}</h6>
+  ));
 
   return (
-    <div className="text-light border border-primary border-2 rounded py-3 px-5 my-2 mx-3">
-      {printArray}
-    </div>
-  )
-}
+      <div className="text-light border border-my-primary border-2 rounded py-3 px-5 my-2 mx-3">
+          {printArray}
+      </div>
+  );
+};
+

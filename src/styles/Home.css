@@ -1,0 +1,51 @@
+.home-container {
+  height: 100vh;
+}
+
+.my-name {
+  color: #383838;
+  font-family: "Poppins", sans-serif;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.46px;
+}
+
+h5 {
+  color: #383838;
+  font-family: "Poppins", sans-serif;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.39px;
+}
+
+.img-container {
+  display: flex;
+}
+
+.img-grey {
+  position: absolute;
+  height: 90vh;
+  animation: spin 500s infinite linear; /* Adjust settings as needed */
+}
+.img-pink {
+  position: absolute;
+  height: 60vh;
+  animation: spin 80s infinite linear; /* Adjust settings as needed */
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.img-fluid {
+  padding: 100px;
+  z-index: 1;
+}

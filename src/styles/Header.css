@@ -1,0 +1,27 @@
+.navbar {
+  height: 70px;
+  position: fixed;
+  opacity: 0.85;
+}
+
+.logo {
+  height: 55px;
+}
+
+li {
+  color: #4900ff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+
+.navbar-links {
+    padding-right: 8vw;
+}
+
+active nav-link {
+  color: #4900ff !important;
+}

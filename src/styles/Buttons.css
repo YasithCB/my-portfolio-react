@@ -1,0 +1,20 @@
+.btn-filled {
+  width: 231px;
+  height: 74.298px;
+  background-color: #4900ff;
+  color: white;
+  border-radius: 10px;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.btn-unfilled {
+  width: 231px;
+  height: 74.298px;
+  border: 2px solid #4900ff;
+  background-color: transparent;
+  color: #4900ff;
+  border-radius: 10px;
+  font-size: 21px;
+  font-weight: 500;
+}

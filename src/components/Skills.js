@@ -1,5 +1,6 @@
 import React from "react";
-import { SkillDetalsBox } from "./SkillDetalsBox";
+import { SkillDetailsBox } from "./SkillDetalsBox";
+import "./../styles/Skills.css";
 
 export const Skills = () => {
   const frontend = [
@@ -19,22 +20,41 @@ export const Skills = () => {
     "Express.js",
   ];
   const db = ["MySQL", "MongoDB", "React Native", "OOP", "Hibernate", "Git"];
+  const graphicDesign = ["Adobe Photoshop", 'Adobe Illustrator'];
 
   return (
-    <div className="container text-light py-5 my-2">
-      <h3 className="text-center">My Skills</h3>
-      <div className="row mt-5">
-        <div className="col-12 col-md-4">
-          <h6 className="text-center">Frontend</h6>
-          <SkillDetalsBox array={frontend} />
+    <div className="bg-light">
+      <div className="container py-5">
+        {/* software dev skills */}
+        <div className="d-flex justify-content-center">
+          <span className="my-title">SoftwareDevelopment</span>
+          <span className="my-title my-primary-color">Skills</span>
         </div>
-        <div className="col-12 col-md-4">
-          <h6 className="text-center">Backend</h6>
-          <SkillDetalsBox array={backend} />
+        <div className="row mt-5">
+          <div className="col-12 col-md-4">
+            <h6 className="text-center subtitle">Frontend</h6>
+            <SkillDetailsBox contentArray={frontend} />
+          </div>
+          <div className="col-12 col-md-4">
+            <h6 className="text-center subtitle">Backend</h6>
+            <SkillDetailsBox contentArray={backend} />
+          </div>
+          <div className="col-12 col-md-4">
+            <h6 className="text-center subtitle">Databases/ Mobile & Other</h6>
+            <SkillDetailsBox contentArray={db} />
+          </div>
         </div>
-        <div className="col-12 col-md-4">
-          <h6 className="text-center">Databases/ Mobile & Other</h6>
-          <SkillDetalsBox array={db} />
+
+
+        {/* graphic design skills */}
+        <div className="d-flex justify-content-center mt-5">
+          <span className="my-title">Graphics Design</span>
+          <span className="my-title my-primary-color">Skills</span>
+        </div>
+        <div className="row mt-5 justify-content-center">
+          <div className="col-12 col-md-6">
+            <SkillDetailsBox contentArray={graphicDesign} />
+          </div>
         </div>
       </div>
     </div>

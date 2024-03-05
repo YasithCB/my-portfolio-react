@@ -1,0 +1,40 @@
+.journey-text {
+  color: #4900ff;
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+}
+
+.education-box :nth-child(1) {
+  color: #383838;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.88px;
+}
+.education-box :nth-child(2) {
+  color: #383838;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.88px;
+}
+.education-box :nth-child(3) {
+  color: #383838;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}
+
+.education-box {
+  border-radius: 15px;
+  border: 3px solid #4900ff;
+}

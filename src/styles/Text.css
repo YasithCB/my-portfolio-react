@@ -1,0 +1,25 @@
+.my-title {
+    color: #383838;
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+}
+
+.subtitle {
+    color: #383838;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+.my-primary-color {
+    color: #4900ff !important;
+}
+
+.border-my-primary {
+    border-color: #4900ff !important;
+}
