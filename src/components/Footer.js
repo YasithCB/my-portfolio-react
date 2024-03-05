@@ -5,9 +5,9 @@ import { AiOutlineArrowUp } from "react-icons/ai";
 const Footer = () => {
   return (
     <div className="bg-dark">
-      <div className="container text-white d-flex flex-column flex-md-row align-items-center">
+      <div className="container d-flex flex-column flex-md-row align-items-center">
         <div className="col-md-6 ">
-          <p className="m-0">
+          <p className="m-0 text-white my-small-text">
             Copyright 2023 by Yasith C Bandara | All Rights Reserved.
           </p>
         </div>

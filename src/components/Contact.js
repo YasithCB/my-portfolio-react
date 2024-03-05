@@ -1,12 +1,16 @@
 import React from "react";
 import { InputField } from "./InputField";
 import { CommentBox } from "./CommentBox";
-import { NoFilledBlueButton } from "./NoFilledBlueButton";
+import { FilledBlueButton } from "./FilledBlueButton";
 
 export const Contact = () => {
   return (
-    <div className="container text-light py-3 my-2">
-      <h3 className="text-center">Contact Me</h3>
+    <div className="bg-light">
+      <div className="container py-3">
+      <div className="d-flex justify-content-center">
+          <span className="my-title">Contact_</span>
+          <span className="my-title my-primary-color">Me</span>
+        </div>
       <div className="row mt-5">
         <div className="col-12 col-md-2"></div>
         <div className="col-12 col-md-4">
@@ -21,8 +25,9 @@ export const Contact = () => {
         <div className="col-12 col-md-2"></div>
       </div>
       <div className="d-flex justify-content-center my-4">
-        <NoFilledBlueButton text="Read More" />
+        <FilledBlueButton text="Send Now" />
       </div>
+    </div>
     </div>
   );
 };

@@ -7,10 +7,10 @@ export const InputField = (props) => {
       <FloatingLabel
         controlId="floatingInput"
         label={props.label}
-        className="mb-3 mx-2"
+        className="mb-3 mx-2 my-focus"
       >
         <Form.Control
-          className="bg-dark text-light border border-primary border-2"
+          className="bg-light border border-my-primary border-2 my-small-text"
           type={props.type}
           placeholder={props.label}
         />

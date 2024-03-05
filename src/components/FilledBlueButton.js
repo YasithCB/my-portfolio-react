@@ -3,7 +3,7 @@ import "./../styles/Buttons.css";
 
 export const FilledBlueButton = (props) => {
   return (
-    <button type="button" className="btn btn-filled me-3 px-4">
+    <button type="button" className="btn btn-filled me-3 px-4 my-btn">
       {props.text}
     </button>
   );

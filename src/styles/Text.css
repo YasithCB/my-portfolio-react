@@ -23,3 +23,17 @@
 .border-my-primary {
     border-color: #4900ff !important;
 }
+
+.my-small-text {
+    font-size: 16px;
+}
+
+.my-btn {
+    height: 48px;
+    font-size: 18px;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+.my-btn:hover {
+    transform: scale(1.05);
+    color: #9e78ff;
+}

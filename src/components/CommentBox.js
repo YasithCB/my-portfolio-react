@@ -7,7 +7,7 @@ export const CommentBox = () => {
       <FloatingLabel className="mx-2" controlId="msg" label="Your Message">
         <Form.Control
           as="textarea"
-          className="bg-dark text-light border border-primary border-2"
+          className="bg-light border border-my-primary border-2"
           style={{ height: '100px' }}
         />
       </FloatingLabel>

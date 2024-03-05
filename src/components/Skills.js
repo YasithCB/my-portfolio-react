@@ -27,7 +27,7 @@ export const Skills = () => {
       <div className="container py-5">
         {/* software dev skills */}
         <div className="d-flex justify-content-center">
-          <span className="my-title">SoftwareDevelopment</span>
+          <span className="my-title">Software_Development_</span>
           <span className="my-title my-primary-color">Skills</span>
         </div>
         <div className="row mt-5">
@@ -48,7 +48,7 @@ export const Skills = () => {
 
         {/* graphic design skills */}
         <div className="d-flex justify-content-center mt-5">
-          <span className="my-title">Graphics Design</span>
+          <span className="my-title">Graphics_Design_</span>
           <span className="my-title my-primary-color">Skills</span>
         </div>
         <div className="row mt-5 justify-content-center">
